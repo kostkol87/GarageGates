@@ -1,0 +1,26 @@
+footer {
+    background-color: #555;
+    color:            white;
+    padding:          15px;
+}
+
+.tab_section {
+    overflow: auto;
+    height:   500pt;
+}
+
+.url {
+    color: darkblue;
+    overflow: auto;
+}
+
+.xml {
+    color: #36006a;
+    border: solid 1px #d9d9d9;
+    border-radius: 3px;
+    overflow: auto;
+}
+
+.entity {
+    border-left: solid 3px black;
+}
