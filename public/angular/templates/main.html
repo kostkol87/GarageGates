@@ -1,4 +1,22 @@
 <div class="main_container">
+    <div>
+        angular test: >> {{testObj}} <<
+    </div>
 
+    <div draggable="false">
+        <header>controls</header>
 
+        <header>single tap</header>
+        <div class="btn-group">
+            <div class="btn btn-primary btn-lg" ng-click="fullOpen()">open</div>
+            <div class="btn btn-primary btn-lg" ng-click="fullClose()">close</div>
+        </div>
+
+        <header>hold</header>
+        <div class="btn-group">
+            <div class="btn btn-primary btn-lg" ng-mousedown="startMovingUp()" ng-mouseup="stopMovingUp()" ng-mouseleave="stopMovingUp()">move up</div>
+            <div class="btn btn-primary btn-lg" ng-mousedown="startMovingDown()" ng-mouseup="stopMovingDown()" ng-mouseleave="stopMovingDown()">move down</div>
+        </div>
+
+    </div>
 </div>
